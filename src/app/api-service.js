@@ -1,5 +1,5 @@
 // lib/strapi.js
-const STRAPI_URL = "http://192.168.1.115:1337";
+const STRAPI_URL = "https://control.lovedvoices.com";
 
 export async function strapiFetch(path, init = {}) {
   const url = new URL(path, STRAPI_URL);

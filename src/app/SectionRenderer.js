@@ -6,7 +6,7 @@ import ContactForm from "./ContactForm";
 
 export default function SectionRenderer({ section }) {
   switch (section?.__component) {
-    case "section.hero":
+    case "sections.hero-section":
       return <Hero {...section} />;
     case "section-contact-form":
       return <ContactForm {...section} />;
